@@ -10,7 +10,7 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_id": "246a6461-b920-4285-9c45-3b6263b01b12",
+			"database_id": "9fab0606-79d6-44f0-913f-2302ca964757",
 			"database_name": "herramienta-db",
 			"migrations_dir": "drizzle/migrations"
 		}
@@ -26,7 +26,7 @@
 	"kv_namespaces": [
 		{
 			"binding": "KV",
-			"id": "12acf8a4f2284c1fa1cebfbb22e79543"
+			"id": "7d8894327b3d4e43a51b06225eeef303"
 		}
 	],
 	"main": "./src/server.tsx",
@@ -56,12 +56,12 @@
 		{
 			"binding": "AT_SECRET",
 			"secret_name": "ACCESS_TOKEN_SECRET",
-			"store_id": "64c95a919d9340f686c9ea5270b8e9c5"
+			"store_id": "2e1630d6bfa8460e838cf7fa87c61ed4"
 		},
 		{
 			"binding": "RT_SECRET",
 			"secret_name": "REFRESH_TOKEN_SECRET",
-			"store_id": "64c95a919d9340f686c9ea5270b8e9c5"
+			"store_id": "2e1630d6bfa8460e838cf7fa87c61ed4"
 		}
 	]
 }
