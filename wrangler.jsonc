@@ -18,8 +18,8 @@
 	"durable_objects": {
 		"bindings": [
 			{
-				"name": "LOGIN_RATE_LIMITER",
-				"class_name": "LoginRateLimiter"
+				"class_name": "LoginRateLimiter",
+				"name": "LOGIN_RATE_LIMITER"
 			}
 		]
 	},
@@ -32,8 +32,8 @@
 	"main": "./src/server.tsx",
 	"migrations": [
 		{
-			"tag": "v1",
-			"new_sqlite_classes": ["LoginRateLimiter"]
+			"new_sqlite_classes": ["LoginRateLimiter"],
+			"tag": "v1"
 		}
 	],
 	"name": "herramienta",
